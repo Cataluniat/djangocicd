@@ -20,3 +20,4 @@ jobs:
           known_hosts: ${{ secrets.KNOWN_HOSTS }}
       - name: rsync over ssh
         run: ./deploy_to_aws.sh
+          
